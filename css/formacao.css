@@ -107,6 +107,10 @@
   background: url("../img/cursos.svg") no-repeat center center;
 }
 
+.tecnologias h3::before {
+  background: url("../img/tecnologias.svg") no-repeat center center;
+}
+
 .idiomas h3::before {
   background: url("../img/idiomas.svg") no-repeat center center;
 }
@@ -123,6 +127,12 @@
 
 .cursos li {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tecnologias li {
+  display: inline-block;
   justify-content: space-between;
   align-items: center;
 }
